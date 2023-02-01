@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Sans-Serif;
+}
+
+.dark {
+    background-color: black;
+    color: #fff;
+}
+
+.darkMode {
+    position: absolute;
+    padding-right: 100px;
+    text-shadow: 1px 2px 2px #eaeaea;
+    top: 16px;
+    right: 0;
+}
+
+.textDark {
+    font-weight: bold;
+}
+
+.choiceContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.choice:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+#player {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bot {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#status {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.level {
+    margin-left: 100px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.data {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.level {
+    margin-top: 10px;
+}
+
+#level {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.garis {
+    width: 50%;
+    height: 2px;
+    background-color: #eaeaea;
+    margin: auto;
+}
+
+.result {
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+}
+
+#resultPoint {
+    text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+    .darkMode {
+        padding-right: 40px;
+    }
+    .data {
+        margin-left: 40px;
+    }
+    .level {
+        margin-left: 45px;
+    }
+    .choice {
+        font-size: 40px;
+    }
+}
