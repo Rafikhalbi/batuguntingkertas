@@ -1,2 +1,1 @@
-# rafikhalbi.github.io
-Game Batu Gunting Kertas
+# Game Batu Gunting Kertas
