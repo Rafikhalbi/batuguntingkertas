@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Batu Gunting Kertas</title>
+        <link
+            rel="stylesheet"
+            href="css/style.css"
+            type="text/css"
+            media="all"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="darkMode">
+                <p class="textDark" onclick="darkMode()">Dark Mode</p>
+            </div>
+            <div class="level">
+                <h1 id="level">0</h1>
+            </div>
+            <div class="data">
+                <h5>Total Kemenangan: <span id="winn">0</span></h5>
+                <h5>Total Kekalahan: <span id="lose">0</span></h5>
+                <h5>Total Draw: <span id="drw">0</span></h5>
+            </div>
+            <div class="result">
+                <h1 id="resultPoint">Point: 0</h1>
+                <h1 id="player"></h1>
+                <div id="garis"></div>
+                <h1 id="bot"></h1>
+                <h3 id="status"></h3>
+            </div>
+        </div>
+        <div class="choiceContainer">
+            <div class="choice" onclick="startGame('✊')">✊</div>
+            <div class="choice" onclick="startGame('✌️')">✌️</div>
+            <div class="choice" onclick="startGame('🖐️')">🖐️</div>
+        </div>
+        <script
+            src="js/script.js"
+            type="text/javascript"
+            charset="utf-8"
+        ></script>
+    </body>
+</html>
